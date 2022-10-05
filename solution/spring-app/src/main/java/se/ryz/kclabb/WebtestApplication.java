@@ -1,4 +1,4 @@
-package se.ryz.springdemo.webtest;
+package se.ryz.kclabb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

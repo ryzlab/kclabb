@@ -1,4 +1,4 @@
-package se.ryz.springdemo.webtest;
+package se.ryz.kclabb;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

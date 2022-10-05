@@ -1,4 +1,4 @@
-package se.ryz.springdemo.webtest;
+package se.ryz.kclabb;
 
 import org.keycloak.adapters.KeycloakConfigResolver;
 import org.keycloak.adapters.springboot.KeycloakSpringBootConfigResolver;

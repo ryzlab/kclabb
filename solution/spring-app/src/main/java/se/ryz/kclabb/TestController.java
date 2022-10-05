@@ -1,4 +1,4 @@
-package se.ryz.springdemo.webtest;
+package se.ryz.kclabb;
 
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.CrossOrigin;

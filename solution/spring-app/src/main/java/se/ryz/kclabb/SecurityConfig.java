@@ -1,4 +1,4 @@
-package se.ryz.springdemo.webtest;
+package se.ryz.kclabb;
 
 import org.keycloak.adapters.springsecurity.KeycloakConfiguration;
 import org.keycloak.adapters.springsecurity.authentication.KeycloakAuthenticationProvider;
