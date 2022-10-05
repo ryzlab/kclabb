@@ -12,8 +12,8 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping
-public class TestController {
-    private static final Logger logger = Logger.getLogger(TestController.class.getName());
+public class PingController {
+    private static final Logger logger = Logger.getLogger(PingController.class.getName());
 
     @GetMapping("/ping")
     @CrossOrigin(origins = "http://localhost:8080")
