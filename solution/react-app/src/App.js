@@ -5,6 +5,7 @@ import LoginButton from './components/LoginButton';
 import React from 'react';
 import RestrictedResourceButton from './components/RestrictedResourceButton';
 import UnauthenticatedButton from './components/UnauthenticatedButton';
+
 const eventLogger = (event, error) => {
   console.log("onKeycloakEvent", event, error);
 };
@@ -25,7 +26,6 @@ function App() {
     >
       <React.StrictMode>
         <div className="App">
-          
             <LoginButton></LoginButton>
             <RestrictedResourceButton></RestrictedResourceButton>
             <UnauthenticatedButton></UnauthenticatedButton>
