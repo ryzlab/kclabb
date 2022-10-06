@@ -14,8 +14,15 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
+	implementation 'org.springframework.security:spring-security-oauth2-jose'
+	implementation 'org.keycloak:keycloak-spring-boot-starter:19.0.1'
+	implementation 'org.keycloak:keycloak-spring-security-adapter:18.0.2'
 }
 
 tasks.named('test') {
