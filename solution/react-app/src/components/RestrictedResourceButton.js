@@ -21,7 +21,7 @@ const RestrictedResourceButton = () => {
             <button
                 disabled={!keycloak.authenticated}
                 onClick={event => fetchRestrictedResource(keycloak.token)}>
-                {keycloak.authenticated ? "Ping" : "Please login first"}
+                Ping
             </button>
         </div>
     );
