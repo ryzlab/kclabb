@@ -33,6 +33,13 @@ $ npm start
 # Spring-Boot
 Projektet skapas med hjälp av [Spring Initializr](https://start.spring.io)
 
+* Inställningar
+  - Group: se.ryz
+  - Artifact: kclabb
+  - Name: kclabb
+* Lägg till Spring Security och Web, välj Java 8 och Gradle
+* Packa upp i katalogen "labb" och öppna i IntelliJ
+
 ## Extra imports till Spring-Boot-Appen
 ````
 implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
@@ -41,10 +48,3 @@ implementation 'org.springframework.security:spring-security-oauth2-jose'
 implementation 'org.keycloak:keycloak-spring-boot-starter:19.0.1'
 implementation 'org.keycloak:keycloak-spring-security-adapter:18.0.2'
 ````
-
-* Inställningar
-  - Group: se.ryz
-  - Artifact: kclabb
-  - Name: kclabb
-* Lägg till Spring Security och Web, välj Java 8 och Gradle
-* Packa upp i katalogen "labb" och öppna i IntelliJ
