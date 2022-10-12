@@ -1,12 +1,3 @@
-# Extra imports till Spring-Boot-Appen
-````
-implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
-implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
-implementation 'org.springframework.security:spring-security-oauth2-jose'
-implementation 'org.keycloak:keycloak-spring-boot-starter:19.0.1'
-implementation 'org.keycloak:keycloak-spring-security-adapter:18.0.2'
-````
-
 # Keycloak
 Laddas hem [Här](https://github.com/keycloak/keycloak/releases/download/19.0.3/keycloak-19.0.3.zip) och startas med
 ````
@@ -41,6 +32,15 @@ $ npm start
 
 # Spring-Boot
 Projektet skapas med hjälp av [Spring Initializr](https://start.spring.io)
+
+## Extra imports till Spring-Boot-Appen
+````
+implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
+implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
+implementation 'org.springframework.security:spring-security-oauth2-jose'
+implementation 'org.keycloak:keycloak-spring-boot-starter:19.0.1'
+implementation 'org.keycloak:keycloak-spring-security-adapter:18.0.2'
+````
 
 * Inställningar
   - Group: se.ryz
