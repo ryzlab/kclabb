@@ -12,16 +12,14 @@ Laddas hem [Här](https://github.com/keycloak/keycloak/releases/download/19.0.3/
 ````
 $ ./bin/kc.sh start-dev --http-port 8180
 ````
-# Spring-Boot
-Projektet skapas med hjälp av [Spring Initializr](https://start.spring.io)
 
-Group: se.ryz
-
-Artifact: kclabb
-
-Name: kclabb
-
-Lägg till Spring Security och Web, välj Java 8 och Gradle
+# Klona repo och skapa labbkatalog
+````
+$ git clone git@github.com:ryzlab/kclabb.git
+$ cd kclabb
+$ mkdir labb
+$ cd labb
+````
 
 # React app
 ## Skapa
@@ -34,9 +32,19 @@ $ npm install keycloak-js @react-keycloak/web
 ## Styling
 Det finns en css för lite finare styling som man kan kopiera:
 
-`$ cp solution/react-app/src/App.css skeleton/react-app/src/App.css`
+`$ cp ../../solution/react-app/src/App.css src/App.css`
 
 ## Starta
 ````
 $ npm start
 ````
+
+# Spring-Boot
+Projektet skapas med hjälp av [Spring Initializr](https://start.spring.io)
+
+* Inställningar
+  - Group: se.ryz
+  - Artifact: kclabb
+  - Name: kclabb
+* Lägg till Spring Security och Web, välj Java 8 och Gradle
+* Packa upp i katalogen "labb" och öppna i IntelliJ
