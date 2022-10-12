@@ -40,7 +40,7 @@ Projektet skapas med hjälp av [Spring Initializr](https://start.spring.io)
 * Lägg till Spring Security och Web, välj Java 8 och Gradle
 * Packa upp i katalogen "labb" och öppna i IntelliJ
 
-## Extra imports till Spring-Boot-Appen
+## Extra beroenden i Spring-Boot-Appen
 ````
 implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
 implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
