@@ -11,3 +11,32 @@ implementation 'org.keycloak:keycloak-spring-security-adapter:18.0.2'
 Det finns en css för lite finare styling som man kan kopiera:
 
 `$ cp solution/react-app/src/App.css skeleton/react-app/src/App.css`
+
+# Keycloak
+Laddas hem [Här](https://github.com/keycloak/keycloak/releases/download/19.0.3/keycloak-19.0.3.zip) och startas med
+````
+$ ./bin/kc.sh start-dev --http-port 8180
+````
+# Spring-Boot
+Projektet skapas med hjälp av [Spring Initializr](https://start.spring.io)
+
+Group: se.ryz
+
+Artifact: kclabb
+
+Name: kclabb
+
+Lägg till Spring Security och Web, välj Java 8 och Gradle
+
+# React app
+Skapas med
+````
+$ npx create-react-app react-ap
+$ cd react-app
+$ npm install keycloak-js @react-keycloak/web
+````
+Kör sedan
+````
+$ npm install
+$ npm start
+````
