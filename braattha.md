@@ -26,7 +26,7 @@ Lägg till Spring Security och Web, välj Java 8 och Gradle
 # React app
 ## Skapa
 ````
-$ npx create-react-app react-ap
+$ npx create-react-app react-app
 $ cd react-app
 $ npm install
 $ npm install keycloak-js @react-keycloak/web
