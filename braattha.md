@@ -17,7 +17,7 @@ Om inte annat sägs, lämna all defaultkonfiguration orörd
   * Lägg till 'Valid post logout redirect URIs': `http://localhost:3000/*`
 
 * Skapa roll 'testrole'
-* Skapa user 'kalle' och sätt password
+* Skapa user 'kalle' och sätt password med 'Temporary' satt till 'False'
 * Lägg till rollen 'testrole' till 'kalle'
 
 
