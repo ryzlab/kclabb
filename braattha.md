@@ -38,7 +38,7 @@ $ npm install keycloak-js @react-keycloak/web
 ````
 
 ## Styling
-Det finns en css för lite finare styling som man kan kopiera:
+Det finns en css med lite finare styling som man kan kopiera:
 
 ````
 $ cp ../../solution/react-app/src/App.css src/App.css
