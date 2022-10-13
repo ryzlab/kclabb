@@ -49,7 +49,8 @@ $ cp ../../solution/react-app/src/App.css src/App.css
 $ npm start
 ````
 
-# Spring-Boot
+# Spring-Boot App
+## Skapa applikationen
 Projektet skapas med hjälp av [Spring Initializr](https://start.spring.io)
 
 * Inställningar
