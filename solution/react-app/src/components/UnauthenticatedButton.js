@@ -10,12 +10,10 @@ const UnauthenticatedButton = () => {
     }
 
     return (
-        <div>
-            <button
-                onClick={event => fetchResource()}>
-                Ping without auth
-            </button>
-        </div>
+        <button
+            onClick={event => fetchResource()}>
+            Ping without auth
+        </button>
     );
 };
 

@@ -17,13 +17,11 @@ const RestrictedResourceButton = () => {
     }
 
     return (
-        <div>
-            <button
-                disabled={!keycloak.authenticated}
-                onClick={event => fetchRestrictedResource(keycloak.token)}>
-                Ping
-            </button>
-        </div>
+        <button
+            disabled={!keycloak.authenticated}
+            onClick={event => fetchRestrictedResource(keycloak.token)}>
+            Ping
+        </button>
     );
 };
 
